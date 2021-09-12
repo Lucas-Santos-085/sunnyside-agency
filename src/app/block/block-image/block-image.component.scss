@@ -1,8 +1,9 @@
 @import "src/styles/mixin.scss";
 
-.first-block {
+.desktop-layout {
+  display: none;
+
   @include md {
     display: flex;
-    flex-direction: row-reverse;
   }
 }

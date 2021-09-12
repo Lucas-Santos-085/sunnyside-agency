@@ -9,7 +9,6 @@
 .rectangle {
   background-color: hsl(51, 100%, 49%);
   position: relative;
-  //top: 1em;
   height: 0.7em;
   width: 35%;
   mix-blend-mode: normal;
@@ -22,6 +21,10 @@
   display: none;
 
   @include md {
-    display: flex;
+    display: block;
   }
+}
+
+.row__text {
+  margin-top: 40%;
 }

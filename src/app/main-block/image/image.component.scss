@@ -1,0 +1,9 @@
+@import "src/styles/mixin.scss";
+
+.desktop-layout {
+  display: none;
+
+  @include md {
+    display: block;
+  }
+}
