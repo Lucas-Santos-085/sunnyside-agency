@@ -1,0 +1,17 @@
+.cta-learn {
+  color: hsl(212, 27%, 19%);
+  text-transform: uppercase;
+  outline: none;
+}
+
+.rectangle {
+  background-color: hsl(51, 100%, 49%);
+  position: relative;
+  //top: 1em;
+  height: 0.7em;
+  width: 35%;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  border-radius: 1.8em;
+  margin-top: -0.5em;
+}

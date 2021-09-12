@@ -1,0 +1,66 @@
+@import "src/styles/mixin.scss";
+
+.contact-button {
+  color: hsl(212, 27%, 19%);
+  background-color: hsl(51, 100%, 49%);
+  text-transform: uppercase;
+  //font-weight: bolder;
+
+  @include md {
+    background-color: hsl(0, 0%, 100%);
+  }
+}
+
+.navbar {
+  //background: #57cddd;
+  background: #0dcaf0;
+}
+
+.navbar-toggler-icon {
+  color: hsl(0, 0%, 100%);
+}
+
+.brand {
+  font-size: 1.6em;
+  color: hsl(0, 0%, 100%);
+}
+
+.menu__items {
+  background-color: hsl(0, 0%, 100%);
+
+  @include md {
+    //background-color: #57cddd;
+    background-color: #0dcaf0;
+  }
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-link {
+  color: hsl(232, 10%, 55%);
+
+  @include md {
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+.nav-item {
+  margin-bottom: 0.7em;
+
+  @include md {
+    color: hsl(0, 0%, 100%);
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-bottom: 0;
+  }
+}
+
+.first__image {
+  background: url("../../assets/images/mobile/image-header.jpg");
+  padding-top: 120%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
