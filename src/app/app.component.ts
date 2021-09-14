@@ -11,4 +11,7 @@ export class AppComponent {
   // Path to images
   imageEggMobile = '../../assets/images/mobile/image-transform.jpg';
   imageEggDesktop = '../../assets/images/desktop/image-transform.jpg';
+
+  imageCupMobile = '../../assets/images/mobile/image-stand-out.jpg';
+  imageCupDesktop = '../../assets/images/desktop/image-stand-out.jpg';
 }

@@ -4,5 +4,13 @@
   @include md {
     display: flex;
     flex-direction: row-reverse;
+    //max-width: 1280px;
+  }
+}
+
+.second-block {
+  @include md {
+    display: flex;
+    //max-width: 1280px;
   }
 }
