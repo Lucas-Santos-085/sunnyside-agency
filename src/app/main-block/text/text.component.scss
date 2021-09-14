@@ -15,6 +15,10 @@
   opacity: 0.3;
   border-radius: 1.8em;
   margin-top: -0.5em;
+
+  @include md {
+    max-width: 8.5em;
+  }
 }
 
 .desktop-layout {
